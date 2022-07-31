@@ -8,7 +8,7 @@ class Test(
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
-    var id: Long? = null, // todo val/var?
+    var id: Long? = null,
 
     @Column(name = "test_name")
     var testName: String = "test"
